@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #e9f7ef, #e5e7e9);
+    font-family: Roboto, sans-serif; 
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+pre {
+    color: #6A518C;
+    text-align: justify;
+}
+
+h1 {
+    color: #F2D6A2;
+    font-size: 35px;
+}
+
+h2 {
+    color: #3C7369;
+    font-size: 28px;
+}
+
+h3 {
+    color: #3C7369;
+    font-size: 22px;
+}
+
+h4 {
+    color: #3C7369;
+    font-size: 18px;
+}
+
+h5 {
+    color: #3C7369;
+    font-size: 17px;
+}
+
+strong {
+    color: #DBC4F2;
+}
+
+mark {
+    background-color: rgb(153, 255, 153);
+}
+
+a {
+    color: #DBC4F2;
+    text-decoration: none;
+}
+
+a img {
+    border-radius: 50%;
+    width: 450px;
+    height: 500px;
+}
+
+span {
+    color: #DBC4F2;
+}
+
+table {
+    border: 2px solid #6A518C;
+    color: #3C7369;
+    width: 30vw;
+    border-collapse: collapse; 
+    margin: 0 auto;
+    
+}
+
+th, td {
+    border: 1px solid #6A518C;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #6A518C;
+    color: #F2D6A2;
+}
+
+tr:nth-child(even) {
+    background-color: #F2D6A2;
+}
+
+caption {
+    border-bottom: 3px solid #6A518C;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6A518C;
+}
+
+
+dl {
+    border: 2px solid #6A518C;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+dl dd {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: square;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+iframe {
+    width: 30vw;
+    height: 30vh;
+}
+
+footer a,  footer p, footer button {
+    margin-right: 20px;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: #6A518C;
+    color: #F2D6A2;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Roboto, sans-serif; 
+}
+
+#icon {
+    font-size: 25px;
+}
+
+#giphy-cdz {
+    width: 500px;
+    height: 300px;
+}
